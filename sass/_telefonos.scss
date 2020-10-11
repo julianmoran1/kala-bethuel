@@ -1,8 +1,9 @@
 @media screen and (max-width: 760px) {
 
-    nav{
-        /* display: none; */
-    }
+/*     nav{
+        display: none;
+    } */
+    
     h2{
         text-align: center;
     }
@@ -15,12 +16,12 @@
         }
     }
 
-    .historia, .equipo, .contenido-contacto, {
+    .historia, .equipo, .contenido-contacto {
         flex-direction: column;
     }
      
     .equipo{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     iframe{
@@ -29,5 +30,12 @@
 
     .contenido-equipo{
         text-align: center;
+    }
+
+    .historia {
+    
+        img{
+        margin: 0px;
+        }
     }
   }

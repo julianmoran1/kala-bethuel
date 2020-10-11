@@ -53,6 +53,7 @@ header .contenedor {
 }
 header .contenedor li {
   display: inline-block;
+  /* padding: 15px; */
 }
 header .contenedor li a {
   text-decoration: none;
@@ -150,10 +151,9 @@ footer .contenedor ul li a i {
 }
 
 @media screen and (max-width: 760px) {
-  nav {
-    /* display: none; */
-  }
-
+  /*     nav{
+          display: none;
+      } */
   h2 {
     text-align: center;
   }
@@ -169,7 +169,7 @@ footer .contenedor ul li a i {
   }
 
   .equipo {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   iframe {
@@ -178,5 +178,9 @@ footer .contenedor ul li a i {
 
   .contenido-equipo {
     text-align: center;
+  }
+
+  .historia img {
+    margin: 0px;
   }
 }

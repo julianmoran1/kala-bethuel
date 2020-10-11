@@ -15,6 +15,7 @@ body {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 li {
@@ -59,7 +60,7 @@ header .contenedor li a {
 }
 header .contenedor li a:hover {
   background-color: red;
-  border-radius: 10%;
+  border-radius: 1rem;
 }
 header .contenedor li a:visited {
   color: black;
@@ -142,8 +143,9 @@ footer .contenedor ul li a {
 }
 footer .contenedor ul li a:hover {
   background-color: red;
+  border-radius: 1rem;
 }
-footer .contenedor ul li i {
+footer .contenedor ul li a i {
   margin-right: 10px;
 }
 

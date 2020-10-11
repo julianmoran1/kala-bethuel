@@ -13,19 +13,20 @@ footer{
             display: flex;
             justify-content: space-around;
         }
-        ul{
-            li{
-                margin: 20px 0;
 
-                a{
-                    text-decoration: none;
-                    color: inherit;
-                    padding: 15px;
+            ul{
+                li{
+                    margin: 20px 0;
+
+                    a{
+                        text-decoration: none;
+                        color: inherit;
+                        padding: 15px;
 
                     &:hover {
                         background-color: red;
+                        border-radius: 1rem;
                     }
-                }
 
                 i{
                     margin-right: 10px;
@@ -35,4 +36,5 @@ footer{
     }
 
     
+}
 }

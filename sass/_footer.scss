@@ -1,0 +1,38 @@
+
+/* Footer*/
+
+footer{
+    background-color: tomato;
+    padding: 20px 0;
+    color: #eee;
+    text-align: center;
+
+    .contenedor{
+
+        .contenido-contacto{
+            display: flex;
+            justify-content: space-around;
+        }
+        ul{
+            li{
+                margin: 20px 0;
+
+                a{
+                    text-decoration: none;
+                    color: inherit;
+                    padding: 15px;
+
+                    &:hover {
+                        background-color: red;
+                    }
+                }
+
+                i{
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    
+}

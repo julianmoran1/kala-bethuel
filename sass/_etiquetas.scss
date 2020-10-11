@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+p{
+    font-weight: 300;
+    margin: 10px 0;
+}

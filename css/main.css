@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+p {
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+/* Cabecera */
+header {
+  background-color: white;
+  border-bottom: 5px solid #ccc;
+  /*     
+      position: fixed;
+      top: 0;
+      width: 100%; 
+  */
+}
+header .contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .contenedor li {
+  display: inline-block;
+}
+header .contenedor li a {
+  text-decoration: none;
+  padding: 15px;
+}
+header .contenedor li a:hover {
+  background-color: red;
+  border-radius: 10%;
+}
+header .contenedor li a:visited {
+  color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  margin: 10px 20px 10px 0;
+}
+
+i {
+  font-size: 1.5rem;
+}
+
+/*Secciones*/
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.slider img {
+  width: 100%;
+}
+
+section {
+  padding-bottom: 20px;
+}
+section h2 {
+  padding-top: 20px;
+}
+
+.historia, .equipo {
+  display: flex;
+}
+.historia img, .equipo img {
+  width: 100%;
+  height: auto;
+  max-width: 650px;
+}
+
+.equipo ul li {
+  font-weight: normal;
+  font-weight: 200;
+}
+.equipo img {
+  margin-right: 10px;
+  max-width: 650px;
+}
+
+.historia img {
+  margin-left: 10px;
+}
+
+.contenido-equipo p {
+  margin-left: 10px;
+}
+
+/* Footer*/
+footer {
+  background-color: tomato;
+  padding: 20px 0;
+  color: #eee;
+  text-align: center;
+}
+footer .contenedor .contenido-contacto {
+  display: flex;
+  justify-content: space-around;
+}
+footer .contenedor ul li {
+  margin: 20px 0;
+}
+footer .contenedor ul li a {
+  text-decoration: none;
+  color: inherit;
+  padding: 15px;
+}
+footer .contenedor ul li a:hover {
+  background-color: red;
+}
+footer .contenedor ul li i {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 760px) {
+  nav {
+    /* display: none; */
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  header .contenedor {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+
+  .historia, .equipo, .contenido-contacto {
+    flex-direction: column;
+  }
+
+  .equipo {
+    flex-direction: column-reverse;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  .contenido-equipo {
+    text-align: center;
+  }
+}

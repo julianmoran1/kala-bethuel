@@ -27,8 +27,9 @@ h1 {
   font-size: 1.5rem;
 }
 
-h2 {
-  margin-bottom: 15px;
+h2, h3 {
+  margin: 15px 0;
+  text-align: center;
 }
 
 p {
@@ -97,21 +98,25 @@ section h2 {
   padding-top: 20px;
 }
 
-.historia, .equipo {
+.historia, .equipo, .actividades {
   display: flex;
 }
-.historia img, .equipo img {
+.historia img, .equipo img, .actividades img {
   width: 100%;
   height: auto;
+  min-width: 350px;
   max-width: 650px;
 }
 
+.equipo .contenido-equipo ul {
+  margin: 15px;
+}
 .equipo ul li {
   font-weight: normal;
   font-weight: 200;
 }
 .equipo img {
-  margin-right: 10px;
+  /* margin-right: 10px; */
   max-width: 650px;
 }
 
@@ -121,6 +126,24 @@ section h2 {
 
 .contenido-equipo p {
   margin-left: 10px;
+}
+
+#objetivo {
+  background-color: #ccc;
+}
+#objetivo .contenido-objetivo {
+  text-align: center;
+}
+
+#actividades {
+  background-color: lightblue;
+  margin-top: 0;
+}
+#actividades .actividades {
+  justify-content: space-around;
+}
+#actividades .actividades li {
+  text-align: center;
 }
 
 /* Footer*/
@@ -180,7 +203,7 @@ footer .contenedor ul li a i {
     text-align: center;
   }
 
-  .historia img {
-    margin: 0px;
+  nav ul li {
+    margin: 10px;
   }
 }

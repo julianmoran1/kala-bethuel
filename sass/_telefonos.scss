@@ -40,4 +40,23 @@
             }
         }
     }
+
+    .actividades{
+        display: flex;
+        flex-direction: column;
+
+        .contenedor-slider{
+            margin: auto;
+
+            .slider{
+                width: 100%;
+            }
+
+        }
+    }
+
+    .actividades-2 {
+        flex-direction: column-reverse;
+    }
+
 }

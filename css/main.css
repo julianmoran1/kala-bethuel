@@ -80,6 +80,26 @@ i {
   font-size: 1.5rem;
 }
 
+.contenedor-slider {
+  width: 80%;
+}
+.contenedor-slider .slider {
+  /* width: 1200px; */
+  width: 50%;
+  /* height: 450px; */
+  height: auto;
+  margin: auto;
+  /* background-color: #ccc; */
+}
+.contenedor-slider .slider div img {
+  height: 450px;
+  height: auto;
+  /* width: 100%; */
+  /* max-width: 100%; */
+  margin: auto;
+  position: center;
+}
+
 /*Secciones*/
 .contenedor {
   width: 90%;
@@ -87,7 +107,7 @@ i {
   margin: auto;
 }
 
-.slider img {
+.slider-cabecera img {
   width: 100%;
 }
 
@@ -143,6 +163,13 @@ section h2 {
   justify-content: space-around;
 }
 #actividades .actividades li {
+  text-align: center;
+}
+
+#horario {
+  background-color: tomato;
+  padding: 20px 0;
+  color: #eee;
   text-align: center;
 }
 
@@ -205,5 +232,20 @@ footer .contenedor ul li a i {
 
   nav ul li {
     margin: 10px;
+  }
+
+  .actividades {
+    display: flex;
+    flex-direction: column;
+  }
+  .actividades .contenedor-slider {
+    margin: auto;
+  }
+  .actividades .contenedor-slider .slider {
+    width: 100%;
+  }
+
+  .actividades-2 {
+    flex-direction: column-reverse;
   }
 }

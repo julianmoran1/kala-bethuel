@@ -1,0 +1,27 @@
+.contenedor-slider{
+
+    width: 80%;
+    
+    .slider{
+        /* width: 1200px; */
+        width: 50%;
+    
+        /* height: 450px; */
+        height: auto;
+        margin: auto;
+        
+        /* background-color: #ccc; */
+    
+        div {
+    
+            img{
+                height: 450px;
+                height: auto;
+                /* width: 100%; */
+                /* max-width: 100%; */
+                margin: auto;
+                position: center;     
+            }
+        }
+    }
+}

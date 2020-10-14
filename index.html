@@ -16,6 +16,12 @@
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
+     <!-- SLICK -->
+
+     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+     <!-- // Add the new slick-theme.css if you want the default styling -->
+     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
 </head>
 <body>
     <header>
@@ -30,6 +36,8 @@
                 <ul>
                     <li><a href="">Inicio</a></li>
                     <li><a href="#historia">Historia</a></li>
+                    <li><a href="#objetivo">Objetivo</a></li>
+                    <li><a href="#actividades">Actividades</a></li>
                     <li><a href="#equipo">Equipo</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                     <li><a href="https://www.facebook.com/pages/category/Private-School/Kala-Bethuel-253259848687728/" target="_blank"> <i class="fab fa-facebook-square"></i></a></li>
@@ -38,7 +46,7 @@
             </nav>
         </div>
     </header>
-    <div class="slider">
+    <div class="slider-cabecera">
         <img src="imagenes/inscripciones.jpg" alt="">
     </div>
 
@@ -82,23 +90,74 @@
                             <li>Natación en ACJ durante todo el año</li>
                         </ul>
                     </div>
+                    <div class="contenedor-slider">
+                        <div class="slider">
     
-                    <div class="contenido-actividades">
+                                <div>
+                                    <img src="imagenes/equipo_anterior.jpeg" alt="">
+                                </div>
+                    
+                                <div>
+                                    <img src="imagenes/equipo_anterior.jpeg" alt="">
+                                </div>
+                    
+                                <div>
+                                    <img src="imagenes/equipo_anterior.jpeg" alt="">
+                                </div>
+                    
+                        </div>
+                    </div>
+
+    
+                </div>
+
+            </div>
+        </section>
+
+        <section id="actividades" class="wow animate__animated animate__fadeInUpBig">
+            <div class="contenedor">
+                <div class="actividades actividades-2">
+
+                    <div class="contenedor-slider">
+                        <div class="contenido-actividades slider">
+                            <div>
+                                <img src="imagenes/equipo_anterior.jpeg" alt="">
+                            </div>
+                
+                            <div>
+                                <img src="imagenes/equipo_anterior.jpeg" alt="">
+                            </div>
+                
+                            <div>
+                                <img src="imagenes/equipo_anterior.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div>
                         <h3>Actividades Curriculares</h3>
-                        <ul>
-                            <li>Salidas didácticas</li>
-                            <li>Muestras artísticas</li>
-                            <li>Inglés</li>
-                            <li>Huerta</li>
-                            <li>Arte</li>
-                        </ul>
+                            <ul>
+                                <li>Salidas didácticas</li>
+                                <li>Muestras artísticas</li>
+                                <li>Inglés</li>
+                                <li>Huerta</li>
+                                <li>Arte</li>
+                            </ul>
                     </div>
     
                 </div>
 
-                <h3><i>Extensión horaria</i></h3>
-                <h3><i>De 7 a 19 hs</i></h3>
             </div>
+        </section>
+
+
+
+
+
+        <section id="horario">
+            <h3><i>Extensión horaria</i></h3>
+            <h3><i>De 7 a 19 hs</i></h3>
         </section>
 
 
@@ -152,6 +211,13 @@
             </div>
         </div>
     </footer>
+
+
+        <!-- SLICK -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script type="text/javascript" src="js/slide.js"></script>
 
     <!-- WOW -->
     <script src="js/wow.js"></script>

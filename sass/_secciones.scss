@@ -6,7 +6,7 @@
     margin: auto;
 }
 
-.slider {
+.slider-cabecera {
     
     img{
         width: 100%;
@@ -88,4 +88,11 @@ section{
             text-align: center;
         }
     }
+}
+
+#horario{
+    background-color: tomato;
+    padding: 20px 0;
+    color: #eee;
+    text-align: center;
 }

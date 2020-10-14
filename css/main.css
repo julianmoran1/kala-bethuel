@@ -240,6 +240,7 @@ footer .contenedor ul li a i {
   }
   .actividades .contenedor-slider {
     margin: auto;
+    width: 100%;
   }
   .actividades .contenedor-slider .slider {
     width: 100%;

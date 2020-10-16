@@ -2,7 +2,7 @@
 /* Footer*/
 
 footer{
-    background-color: tomato;
+    background-color: $rojo;
     padding: 20px 0;
     color: #eee;
     text-align: center;
@@ -17,6 +17,34 @@ footer{
             ul{
                 li{
                     margin: 20px 0;
+
+                    a.celeste{
+
+                        &:hover{
+                            color: black;
+                            background-color: $celeste;
+                            border-radius: 1rem;
+                        }    
+                    }
+        
+                    a.amarillo{
+        
+                        &:hover{
+                            color: black;
+                            background-color: $amarillo;
+                            border-radius: 1rem;
+                        }    
+                    }
+        
+                    a.verde{
+        
+                        &:hover{
+                            color: black;
+                            background-color: $verde;
+                            border-radius: 1rem;
+                        }    
+                    }
+        
 
                     a{
                         text-decoration: none;

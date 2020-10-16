@@ -2,9 +2,9 @@
 
 header{
     background-color: white;
-    /* border-bottom: 5px solid #ccc; */
-    box-shadow: 0px 1px 4px 0px rgba(194, 84, 19, 0.3);
-    margin-bottom: 10px;
+    border-bottom: 5px solid $celeste;
+    /* box-shadow: 0px 1px 4px 0px rgba(194, 84, 19, 0.3); */
+    /* margin-bottom: 10px; */
 /*     
     position: fixed;
     top: 0;
@@ -20,14 +20,49 @@ header{
             display: inline-block;
             /* padding: 15px; */
         
+            a.celeste{
+
+                &:hover{
+                    background-color: $celeste;
+                    border-radius: 1rem;
+                }    
+            }
+
+            a.amarillo{
+
+                &:hover{
+                    background-color: $amarillo;
+                    border-radius: 1rem;
+                }    
+            }
+
+            a.rojo{
+
+                &:hover{
+                    background-color: $rojo;
+                    border-radius: 1rem;
+                }    
+            }
+
+            a.verde{
+
+                &:hover{
+                    background-color: $verde;
+                    border-radius: 1rem;
+                }    
+            }
+
+
+
+
             a{
                 text-decoration: none;
                 padding: 15px;
 
-                &:hover {
+/*                 &:hover {
                     background-color: red;
                     border-radius: 1rem;
-                  }
+                  } */
                
             
                 &:visited {

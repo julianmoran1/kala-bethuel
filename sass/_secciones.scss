@@ -19,6 +19,7 @@ section{
     h2{
         padding-top: 20px;
     }
+
 }
 
 .historia, .equipo, .actividades{
@@ -68,6 +69,11 @@ section{
     }
 }
 
+#historia{
+    
+/*     background-color: $amarillo; */
+}
+
 #objetivo{
     background-color: #ccc;
     
@@ -78,7 +84,7 @@ section{
 }
 
 #actividades{
-    background-color: lightblue;
+    background-color: $celeste;
     margin-top: 0;
     
     .actividades{
@@ -91,7 +97,7 @@ section{
 }
 
 #horario{
-    background-color: tomato;
+    background-color: $rojo;
     padding: 20px 0;
     color: #eee;
     text-align: center;

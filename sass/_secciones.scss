@@ -62,17 +62,17 @@ section{
     }
 }
 
-.historia {
-    
-    img{
-    margin-left: 10px;
-    }
-}
+
 
 
 #historia{
     
-/*     background-color: $amarillo; */
+    .historia {
+    
+        img{
+        margin-left: 10px;
+        }
+    }
 }
 
 #objetivo{
@@ -94,13 +94,19 @@ section{
         padding:20px;
         border-radius: 1rem;
         box-shadow: 8px 5px 15px 5px #444;
+        
+        ul{
+            margin-bottom: 1rem;
+            
+            li{
+                text-align: center;
+                font-style: oblique;
+                font-weight: 300;
+                
+            }
 
-        li{
-            text-align: center;
-            font-style: oblique;
-            font-weight: 300;
         }
-    }
+        }
 
     .actividades-fisicas{
         background-color: $amarillo;

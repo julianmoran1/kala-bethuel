@@ -57,6 +57,7 @@ header .contenedor {
 header .contenedor li {
   display: inline-block;
   /* padding: 15px; */
+  padding-bottom: 1rem;
 }
 header .contenedor li a.celeste:hover {
   background-color: #74cfe4;
@@ -130,18 +131,19 @@ i {
 }
 
 /*Secciones*/
+.slider-cabecera img {
+  width: 100%;
+}
+
 .contenedor {
   width: 90%;
   max-width: 1200px;
   margin: auto;
 }
 
-.slider-cabecera img {
-  width: 100%;
-}
-
 section {
   padding-bottom: 20px;
+  margin: 1rem 0;
 }
 section h2 {
   padding-top: 20px;
@@ -160,6 +162,9 @@ section h2 {
 .equipo .contenido-equipo ul {
   margin: 15px;
 }
+.equipo .contenido-equipo p {
+  margin-left: 10px;
+}
 .equipo ul li {
   font-weight: normal;
   font-weight: 200;
@@ -170,10 +175,6 @@ section h2 {
 }
 
 .historia img {
-  margin-left: 10px;
-}
-
-.contenido-equipo p {
   margin-left: 10px;
 }
 
@@ -189,20 +190,32 @@ section h2 {
 }
 
 #actividades {
-  background-color: #74cfe4;
+  /* background-color: $celeste; */
   margin-top: 0;
 }
 #actividades .actividades {
   justify-content: space-around;
+  /* background-color: red; */
+  padding: 20px;
+  border-radius: 1rem;
+  box-shadow: 8px 5px 15px 5px #444;
 }
 #actividades .actividades li {
   text-align: center;
+  font-style: oblique;
+  font-weight: 300;
+}
+#actividades .actividades-fisicas {
+  background-color: #ecbf48;
+}
+#actividades .actividades-curriculares {
+  background-color: #6fc191;
 }
 
 #horario {
-  background-color: #ec774b;
+  background-color: #74cfe4;
   padding: 20px 0;
-  color: #eee;
+  color: #000;
   text-align: center;
 }
 

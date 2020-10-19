@@ -1,11 +1,5 @@
 /*Secciones*/
 
-.contenedor{
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-}
-
 .slider-cabecera {
     
     img{
@@ -13,8 +7,17 @@
     }
 } 
 
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
 section{
     padding-bottom: 20px;
+    margin: 1rem 0;
     
     h2{
         padding-top: 20px;
@@ -40,6 +43,10 @@ section{
         ul{
             margin:15px
         }
+
+        p{
+            margin-left: 10px;
+        }
     }
 
     ul{
@@ -63,12 +70,6 @@ section{
 }
 
 
-.contenido-equipo{
-    p{
-        margin-left: 10px;
-    }
-}
-
 #historia{
     
 /*     background-color: $amarillo; */
@@ -84,21 +85,35 @@ section{
 }
 
 #actividades{
-    background-color: $celeste;
+    /* background-color: $celeste; */
     margin-top: 0;
     
     .actividades{
         justify-content: space-around;
+        /* background-color: red; */
+        padding:20px;
+        border-radius: 1rem;
+        box-shadow: 8px 5px 15px 5px #444;
 
         li{
             text-align: center;
+            font-style: oblique;
+            font-weight: 300;
         }
+    }
+
+    .actividades-fisicas{
+        background-color: $amarillo;
+    }
+
+    .actividades-curriculares{
+        background-color: $verde;
     }
 }
 
 #horario{
-    background-color: $rojo;
+    background-color: $celeste;
     padding: 20px 0;
-    color: #eee;
+    color: #000;
     text-align: center;
 }

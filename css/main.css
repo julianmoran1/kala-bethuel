@@ -49,7 +49,7 @@ header {
       width: 100%; 
   */
 }
-header #menu {
+header #menu, header .cerrar {
   display: none;
 }
 header .contenedor {

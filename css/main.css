@@ -49,6 +49,9 @@ header {
       width: 100%; 
   */
 }
+header #menu {
+  display: none;
+}
 header .contenedor {
   display: flex;
   align-items: center;
@@ -261,9 +264,10 @@ footer .contenedor ul li a i {
 }
 
 @media screen and (max-width: 760px) {
-  /*     nav{
-          display: none;
-      } */
+  h1 {
+    font-size: 1rem;
+  }
+
   h2 {
     text-align: center;
   }
@@ -272,6 +276,37 @@ footer .contenedor ul li a i {
     flex-direction: column;
     flex-wrap: wrap;
     padding-bottom: 20px;
+  }
+  header .contenedor #menu {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 0;
+  }
+  header .contenedor .cerrar {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+  header .contenedor #nav {
+    display: none;
+  }
+  header .contenedor #nav:target {
+    display: block;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  header .contenedor #nav:target ul {
+    display: block;
+    margin-top: 50px;
+  }
+  header .contenedor #nav:target ul li {
+    display: block;
+    text-align: center;
   }
 
   .historia, .equipo, .contenido-contacto {

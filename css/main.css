@@ -194,7 +194,7 @@ section h2 {
   /* background-color: red; */
   padding: 20px;
   border-radius: 1rem;
-  box-shadow: 8px 5px 15px 5px #444;
+  box-shadow: 5px 5px 5px 5px #888;
 }
 #actividades .actividades ul {
   margin-bottom: 1rem;
@@ -280,6 +280,10 @@ footer .contenedor ul li a i {
 
   .equipo {
     flex-direction: column;
+  }
+
+  .historia img {
+    margin-left: 0;
   }
 
   iframe {

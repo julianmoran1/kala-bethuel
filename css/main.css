@@ -299,6 +299,7 @@ footer .contenedor ul li a i {
     top: 0;
     width: 100vw;
     height: 100vh;
+    z-index: 3;
   }
   header .contenedor #nav:target ul {
     display: block;

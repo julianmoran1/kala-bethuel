@@ -25,3 +25,28 @@
         }
     }
 }
+
+
+
+
+.contenedor-slider-cabecera{
+
+    width: 100%;
+    
+    .slider-cabecera{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        
+        /* background-color: #ccc; */
+    
+        div {
+    
+            img{
+                height: auto;
+                margin: auto;
+                position: center;     
+            }
+        }
+    }
+}

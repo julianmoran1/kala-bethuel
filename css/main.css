@@ -143,6 +143,7 @@ i {
   /* background-color: #ccc; */
 }
 .contenedor-slider-cabecera .slider-cabecera div img {
+  width: 100%;
   height: auto;
   margin: auto;
   position: center;

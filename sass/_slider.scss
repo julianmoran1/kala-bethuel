@@ -31,12 +31,16 @@
 
 .contenedor-slider-cabecera{
 
+    
+
     width: 100%;
     
     .slider-cabecera{
         width: 100%;
         height: auto;
         margin: auto;
+        border-bottom: 5px solid $amarillo;
+        border-top: 5px solid $celeste;
         
         div {
     

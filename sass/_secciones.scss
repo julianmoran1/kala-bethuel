@@ -77,7 +77,7 @@ section{
     }
 }
 
-#actividades{
+#actividades, #maternal, #inicial, #primaria {
     /* background-color: $celeste; */
     margin-top: 0;
     
@@ -107,6 +107,14 @@ section{
 
     .actividades-curriculares{
         background-color: $verde;
+    }
+
+    .maternal{
+        background-color: $rojo;
+    }
+
+    .primaria{
+        background-color: $celeste;
     }
 }
 

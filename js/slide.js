@@ -15,3 +15,12 @@ $('.slider-cabecera').slick({
     fade: true,
     centerMode:true,
 });
+
+$('.slider-colegio').slick({
+    autoplay: true,
+    infinite: true,
+    /* dots: true, */
+    arrows:true,
+    fade: true,
+    centerMode:true,
+});

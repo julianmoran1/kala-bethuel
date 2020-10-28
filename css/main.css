@@ -150,6 +150,18 @@ i {
   position: center;
 }
 
+.contenedor-slider-colegio {
+  width: 50%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+.contenedor-slider-colegio .slider-colegio {
+  width: 100%;
+  text-align: center;
+}
+
 /*Secciones*/
 .contenedor {
   width: 90%;
@@ -201,30 +213,36 @@ section h2 {
   text-align: center;
 }
 
-#actividades {
+#actividades, #maternal, #inicial, #primaria {
   /* background-color: $celeste; */
   margin-top: 0;
 }
-#actividades .actividades {
+#actividades .actividades, #maternal .actividades, #inicial .actividades, #primaria .actividades {
   justify-content: space-around;
   /* background-color: red; */
   padding: 20px;
   border-radius: 1rem;
   box-shadow: 5px 5px 5px 5px #888;
 }
-#actividades .actividades ul {
+#actividades .actividades ul, #maternal .actividades ul, #inicial .actividades ul, #primaria .actividades ul {
   margin-bottom: 1rem;
 }
-#actividades .actividades ul li {
+#actividades .actividades ul li, #maternal .actividades ul li, #inicial .actividades ul li, #primaria .actividades ul li {
   text-align: center;
   font-style: oblique;
   font-weight: 300;
 }
-#actividades .actividades-fisicas {
+#actividades .actividades-fisicas, #maternal .actividades-fisicas, #inicial .actividades-fisicas, #primaria .actividades-fisicas {
   background-color: #ecbf48;
 }
-#actividades .actividades-curriculares {
+#actividades .actividades-curriculares, #maternal .actividades-curriculares, #inicial .actividades-curriculares, #primaria .actividades-curriculares {
   background-color: #6fc191;
+}
+#actividades .maternal, #maternal .maternal, #inicial .maternal, #primaria .maternal {
+  background-color: #ec774b;
+}
+#actividades .primaria, #maternal .primaria, #inicial .primaria, #primaria .primaria {
+  background-color: #74cfe4;
 }
 
 #horario {
@@ -387,5 +405,9 @@ section.copyright {
 
   #mision-vision .contenedor {
     flex-direction: column;
+  }
+
+  .contenedor-slider-colegio {
+    width: 90%;
   }
 }

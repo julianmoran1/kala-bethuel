@@ -384,4 +384,8 @@ section.copyright {
   .actividades-2 {
     flex-direction: column-reverse;
   }
+
+  #mision-vision .contenedor {
+    flex-direction: column;
+  }
 }

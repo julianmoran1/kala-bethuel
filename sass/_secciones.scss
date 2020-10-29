@@ -61,6 +61,14 @@ section{
 #historia{
     
     .historia {
+
+        .contenido-historia{
+            flex: 2;
+        }
+
+        .imagen-historia{
+            flex: 1;
+        }
     
         img{
         margin-left: 10px;

@@ -18,11 +18,53 @@
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-     <!-- SLICK -->
+    <!-- SWIPER SLIDER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
 
-     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-     <!-- // Add the new slick-theme.css if you want the default styling -->
-     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+      <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      /* background: #fff; */
+      max-width: 100%;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  </style>
+
 
 </head>
 <body>
@@ -56,7 +98,22 @@
     </header>
 
 
-    <div class="contenedor-slider-cabecera">
+
+      <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="imagenes/cabecera/portada1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="imagenes/cabecera/portada2b.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="imagenes/cabecera/portada3_edit.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="imagenes/cabecera/equipo_anterior_edit.jpg" alt=""></div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+
+<!--     <div class="contenedor-slider-cabecera">
         <div class="slider-cabecera">
     
                 <div>
@@ -76,7 +133,7 @@
                 </div>      
     
         </div>
-    </div>
+    </div> -->
 
     <section id="historia" class="wow animate__animated animate__fadeInUpBig amarillo">
         <article class="contenedor">
@@ -144,46 +201,43 @@
                 <h2>Maternal</h2>
                 <div class="actividades maternal">
                     
-                    <div class="contenedor-slider-colegio">
-                        <div class="slider-colegio">
-    
-                                <div>
-                                    <img src="imagenes/seleccion-rosana/maternal/maternal(1).jpeg" alt="">
-                                </div>
-                    
-                                <div>
-                                    <img src="imagenes/seleccion-rosana/maternal/maternal-edit2.jpg" alt="">
-                                </div>
-                    
-                                <div>
-                                    <img src="imagenes/seleccion-rosana/maternal/maternal-edit3.jpg" alt="">
-                                </div>
 
-                                <div>
-                                    <img src="imagenes/seleccion-rosana/maternal/maternal(4).jpeg" alt="">
-                                </div>
 
-                                <div>
-                                    <img src="imagenes/seleccion-rosana/maternal/maternal(5).jpeg" alt="">
-                                </div>
-                    
-                                <div>
-                                    <img src="imagenes/seleccion-rosana/maternal/maternal(6).jpeg" alt="">
-                                </div>
 
-                                <div>
-                                    <img src="imagenes/seleccion-rosana/maternal/maternal(7).jpeg" alt="">
-                                </div>
+                    <!-- Swiper -->
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                            <img src="imagenes/seleccion-rosana/maternal/maternal(1).jpeg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="imagenes/seleccion-rosana/maternal/maternal-edit2.jpg" alt="">
+                            </div>
 
-                                <div>
-                                    <img src="imagenes/seleccion-rosana/maternal/maternal(8).jpeg" alt="">
-                                </div>
+                            <div class="swiper-slide"> 
+                                <img src="imagenes/seleccion-rosana/maternal/maternal-edit3.jpg" alt="">
+                            </div>
 
-                                <div>
-                                    <img src="imagenes/seleccion-rosana/maternal/maternal(9).jpeg" alt="">
-                                </div>
+                            <div class="swiper-slide">
+                                <img src="imagenes/seleccion-rosana/maternal/maternal(5).jpeg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="imagenes/seleccion-rosana/maternal/maternal(6).jpeg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="imagenes/seleccion-rosana/maternal/maternal(7).jpeg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="imagenes/seleccion-rosana/maternal/maternal(8).jpeg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="imagenes/seleccion-rosana/maternal/maternal(9).jpeg" alt="">
+                            </div>
 
                         </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
 
                 </div>
@@ -196,185 +250,182 @@
                 <h2>Inicial</h2>
                 <div class="actividades actividades-curriculares">
                     
-                    <div class="contenedor-slider-colegio">
-                        <div class="slider-colegio">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(1).jpeg" alt="">
                                 </div>
     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(2).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(3).jpeg" alt="">
                                 </div>
 
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(4).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(5).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(6).jpeg" alt="">
                                 </div>
                                     
-<!--                                 <div>
-                                    <img src="imagenes/seleccion-rosana/inicial/inicial(7).jpeg" alt="">
-                                </div> -->
-                                    
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(8).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(9).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(10).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(11).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(12).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(13).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(14).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(15).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(16).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(17).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(18).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(19).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(20).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(21).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(22).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(23).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(24).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(25).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(26).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(27).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(28).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(29).jpeg" alt="">
                                 </div>
                                     
-<!--                                 <div>
-                                    <img src="imagenes/seleccion-rosana/inicial/inicial(30).jpeg" alt="">
-                                </div> -->
-                                    
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(31).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(32).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(33).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(34).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(35).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(36).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(37).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(38).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(39).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(40).jpeg" alt="">
                                 </div>
                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(41).jpeg" alt="">
                                 </div>
                                                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(42).jpeg" alt="">
                                 </div>   
                                 
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(43).jpeg" alt="">
                                 </div>   
                                                                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/inicial/inicial(44).jpeg" alt="">
-                                </div>   
+                                </div>
+                            
                         </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+
                     </div>
 
     
@@ -388,135 +439,139 @@
                 <h2>Primaria</h2>
                 <div class="actividades primaria">
                     
-                    <div class="contenedor-slider-colegio">
-                        <div class="slider-colegio">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(1).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(2).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(3).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(4).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(5).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(6).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(7).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(8).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(9).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(10).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(11).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(12).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(13).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(14).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(15).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(16).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(17).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(18).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(19).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(20).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(21).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(22).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(23).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(24).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(25).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(26).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(27).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(28).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(29).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(30).jpeg" alt="">
                                 </div>
                     
-                                <div>
+                                <div class="swiper-slide">
                                     <img src="imagenes/seleccion-rosana/primaria/primaria(31).jpeg" alt="">
                                 </div>
                     
                                 
                         </div>
+
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                     </div>
 
     
@@ -538,22 +593,26 @@
                             <li>Natación en ACJ durante todo el año</li>
                         </ul>
                     </div>
-                    <div class="contenedor-slider">
-                        <div class="slider">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+
     
-                                <div>
-                                    <img src="imagenes/talleres/ninios.jpg" alt="">
-                                </div>
+                            <div class="swiper-slide">
+                                <img src="imagenes/talleres/ninios.jpg" alt="">
+                            </div>
                     
-                                <div>
-                                    <img src="imagenes/cabecera/slide1.jpeg" alt="">
-                                </div>
+                            <div class="swiper-slide">
+                                <img src="imagenes/cabecera/slide1.jpeg" alt="">
+                            </div>
                     
-                                <div>
-                                    <img src="imagenes/cabecera/slide2.jpeg" alt="">
-                                </div>
+                            <div class="swiper-slide">
+                                <img src="imagenes/cabecera/slide2.jpeg" alt="">
+                            </div>
                     
                         </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
                     </div>
 
     
@@ -566,21 +625,25 @@
             <article class="contenedor">
                 <div class="actividades actividades-2 actividades-curriculares">
 
-                    <div class="contenedor-slider">
-                        <div class="contenido-actividades slider">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
                 
-                            <div>
+                            <div class="swiper-slide">
                                 <img src="imagenes/talleres/cocina1.jpg" alt="taller de cocina">
                             </div>
                 
-                            <div>
+                            <div class="swiper-slide">
                                 <img src="imagenes/talleres/musica2.jpg" alt="taller de música">
                             </div>
 
-                            <div>
+                            <div class="swiper-slide">
                                 <img src="imagenes/talleres/salidas2.jpg" alt="salida didáctica">
                             </div>
                         </div>
+
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
 
 
@@ -665,17 +728,24 @@
     </section>
 
 
-        <!-- SLICK -->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
-        <script type="text/javascript" src="js/slide.js"></script>
-
     <!-- WOW -->
     <script src="js/wow.js"></script>
     <script>
     new WOW().init();
     </script>
+
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
     
 </body>
 </html>

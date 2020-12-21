@@ -113,53 +113,25 @@ i {
   font-size: 2.5rem;
 }
 
-.contenedor-slider {
-  width: 80%;
-}
-.contenedor-slider .slider {
-  /* width: 1200px; */
-  width: 50%;
-  /* height: 450px; */
-  height: auto;
-  margin: auto;
-  /* background-color: #ccc; */
-}
-.contenedor-slider .slider div img {
-  height: 450px;
-  height: auto;
-  /* width: 100%; */
-  /* max-width: 100%; */
-  margin: auto;
-  position: center;
+.swiper-container {
+  width: 100%;
+  height: 100%;
 }
 
-.contenedor-slider-cabecera {
-  width: 100%;
-}
-.contenedor-slider-cabecera .slider-cabecera {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  border-bottom: 5px solid #ecbf48;
-  border-top: 5px solid #74cfe4;
-}
-.contenedor-slider-cabecera .slider-cabecera div img {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  position: center;
-}
-
-.contenedor-slider-colegio {
-  width: 50%;
-  height: auto;
+.swiper-slide {
   text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  max-width: 100%;
+  /* Center slide text vertically */
+  display: flex;
   justify-content: center;
-  margin: auto;
+  align-items: center;
 }
-.contenedor-slider-colegio .slider-colegio {
+.swiper-slide img {
+  object-fit: cover;
   width: 100%;
-  text-align: center;
+  height: 100%;
 }
 
 /*Secciones*/
